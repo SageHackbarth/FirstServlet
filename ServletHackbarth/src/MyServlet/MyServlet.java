@@ -28,7 +28,7 @@ public class MyServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		int item1 = Integer.valueOf(request.getParameter("item1")).intValue();
+		/*int item1 = Integer.valueOf(request.getParameter("item1")).intValue();
 		int item2 = Integer.valueOf(request.getParameter("item2")).intValue();
 		int item3 = Integer.valueOf(request.getParameter("item3")).intValue();
 		int item4 = Integer.valueOf(request.getParameter("item4")).intValue();
@@ -37,7 +37,7 @@ public class MyServlet extends HttpServlet {
 		
 		PrintWriter writer = response.getWriter();
 		writer.print("Your total comes out to: $" + total);
-		writer.close();
+		writer.close(); */
 	}
 
 }
